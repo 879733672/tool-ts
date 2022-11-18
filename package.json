@@ -1,6 +1,6 @@
 {
-    "name": "tool-ts",
-    "version": "1.0.0",
+    "name": "@czui/tool-ts",
+    "version": "1.0.1",
     "description": "前端常用工具库",
     "main": "lib/index.js",
     "module": "es/index.js",
@@ -23,7 +23,8 @@
         "tag": "standard-version --preset gitmoji-config",
         "push:tag": "git push --follow-tags origin master",
         "prepublish": "npm run build && npm run tag",
-        "postpublish": "npm run clean"
+        "postpublish": "npm run clean",
+        "npublish": "npm publish --access=public"
     },
     "files": [
         "dist",
