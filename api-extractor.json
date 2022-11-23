@@ -1,10 +1,66 @@
 {
     "$schema": "https://developer.microsoft.com/json-schemas/api-extractor/v7/api-extractor.schema.json",
-    "mainEntryPointFilePath": "./lib/index.d.ts",
+    "mainEntryPointFilePath": "./temp/src/index.d.ts",
     "bundledPackages": [],
-    "projectFolder": "./src",
+    "projectFolder": "./",
+    "apiReport": { //  是否生成 API 报告，一般用不到，关掉
+        "enabled": true
+    },
+    "docModel": {
+        "enabled": true, //  是否生成 doc model 文档，一般用不到，关掉
+        "apiJsonFilePath": "<projectFolder>/api/<unscopedPackageName>.api.json"
+    },
     "dtsRollup": {
         "enabled": true,
-        "untrimmedFilePath": "./lib/index.d.ts"
+        "untrimmedFilePath": "",
+        "publicTrimmedFilePath": "./types/index.d.ts"
+    },
+    "tsdocMetadata": {
+        "enabled": false
+    },
+    "compiler": {
+        "tsconfigFilePath": "./tsconfig.json"
+    },
+    "messages": {
+        "extractorMessageReporting": {
+            "default": {
+                "logLevel": "warning",
+                "addToApiReportFile": true
+            },
+
+            "ae-missing-release-tag": {
+                "logLevel": "none"
+            }
+        },
+        "compilerMessageReporting": {
+            "default": {
+                "logLevel": "warning"
+            }
+        },
+        "tsdocMessageReporting": {
+            "default": {
+                "logLevel": "warning"
+            },
+
+            "tsdoc-undefined-tag": {
+                "logLevel": "none"
+            },
+
+            "tsdoc-escape-greater-than": {
+                "logLevel": "none"
+            },
+
+            "tsdoc-malformed-inline-tag": {
+                "logLevel": "none"
+            },
+
+            "tsdoc-escape-right-brace": {
+                "logLevel": "none"
+            },
+
+            "tsdoc-unnecessary-backslash": {
+                "logLevel": "none"
+            }
+        }
     }
 }

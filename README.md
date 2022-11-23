@@ -1,4 +1,4 @@
-## TOOL-UTILS 常用工具库
+## tool-ts 常用工具库
 
 ### 简介
 
@@ -24,44 +24,43 @@
     npm run push:tag // 推送tag到git
 
     npm run daily // 日常提交代码
-    npm publish  // 提交发布npm
+    npm run npublish  // 提交发布npm
+
+    npm run build:types  // 打包类型文件
+    npm run doc  // 根据类型文件生成文档
 
     ```
 
 #### 目录结构
 
 ```
-tool
+tool-ts
 ├── CHANGELOG.md
 ├── README.md
-├── build   // 打包配置文件
-│   ├── build.js
-│   ├── dev.js
-│   ├── easy.config.js
-│   ├── node.config.js
-│   ├── rollup.config.js
-│   └── version.js
+├── api-extractor.json
+├── build
+│   └── rollup.config.js   // 打包配置文件
 ├── commitlint.config.js
-├── dir.md
 ├── dist
+│   ├── index.d.ts
 │   ├── index.js
-│   ├── index.js.map
-│   ├── index.min.js
-│   └── index.min.js.map
+│   └── index.min.js
 ├── es
-│   ├── index.js
-│   └── index.js.map
+│   ├── index.d.ts
+│   └── index.js
+├── jest.config.js
 ├── lib
-│   ├── index.js
-│   └── index.js.map
-├── package-lock.json
+│   ├── index.d.ts
+│   └── index.js
 ├── package.json
-└── src
-    ├── core
-    │   └── index.js
-    ├── foo.js
-    ├── index.html
-    └── index.js   // 打包入口文件
+├── pnpm-lock.yaml
+├── public
+│   └── index.html
+├── src
+│   └── index.ts
+├── test
+│   └── index.spec.ts
+└── tsconfig.json
 ```
 
 #### API 介绍

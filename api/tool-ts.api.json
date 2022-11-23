@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "toolPackage": "@microsoft/api-extractor",
+    "toolVersion": "7.33.5",
+    "schemaVersion": 1010,
+    "oldestForwardsCompatibleVersion": 1001,
+    "tsdocConfig": {
+      "$schema": "https://developer.microsoft.com/json-schemas/tsdoc/v0/tsdoc.schema.json",
+      "noStandardTags": true,
+      "tagDefinitions": [
+        {
+          "tagName": "@alpha",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@beta",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@defaultValue",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@decorator",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@deprecated",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@eventProperty",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@example",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@experimental",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@inheritDoc",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@internal",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@label",
+          "syntaxKind": "inline"
+        },
+        {
+          "tagName": "@link",
+          "syntaxKind": "inline",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@override",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@packageDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@param",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@privateRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@public",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@readonly",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@remarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@returns",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@sealed",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@see",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@throws",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@typeParam",
+          "syntaxKind": "block",
+          "allowMultiple": true
+        },
+        {
+          "tagName": "@virtual",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@betaDocumentation",
+          "syntaxKind": "modifier"
+        },
+        {
+          "tagName": "@internalRemarks",
+          "syntaxKind": "block"
+        },
+        {
+          "tagName": "@preapproved",
+          "syntaxKind": "modifier"
+        }
+      ],
+      "supportForTags": {
+        "@alpha": true,
+        "@beta": true,
+        "@defaultValue": true,
+        "@decorator": true,
+        "@deprecated": true,
+        "@eventProperty": true,
+        "@example": true,
+        "@experimental": true,
+        "@inheritDoc": true,
+        "@internal": true,
+        "@label": true,
+        "@link": true,
+        "@override": true,
+        "@packageDocumentation": true,
+        "@param": true,
+        "@privateRemarks": true,
+        "@public": true,
+        "@readonly": true,
+        "@remarks": true,
+        "@returns": true,
+        "@sealed": true,
+        "@see": true,
+        "@throws": true,
+        "@typeParam": true,
+        "@virtual": true,
+        "@betaDocumentation": true,
+        "@internalRemarks": true,
+        "@preapproved": true
+      },
+      "reportUnsupportedHtmlElements": false
+    }
+  },
+  "kind": "Package",
+  "canonicalReference": "@czui/tool-ts!",
+  "docComment": "",
+  "name": "@czui/tool-ts",
+  "preserveMemberOrder": false,
+  "members": [
+    {
+      "kind": "EntryPoint",
+      "canonicalReference": "@czui/tool-ts!",
+      "name": "",
+      "preserveMemberOrder": false,
+      "members": [
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@czui/tool-ts!Cat:type",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type Cat = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    name: string;\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "Public",
+          "name": "Cat",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Function",
+          "canonicalReference": "@czui/tool-ts!foo:function(1)",
+          "docComment": "/**\n * @param age1 - \n *\n * @returns \n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare function foo(age1: "
+            },
+            {
+              "kind": "Reference",
+              "text": "Person",
+              "canonicalReference": "@czui/tool-ts!Person:type"
+            },
+            {
+              "kind": "Content",
+              "text": "): "
+            },
+            {
+              "kind": "Reference",
+              "text": "Person",
+              "canonicalReference": "@czui/tool-ts!Person:type"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "returnTypeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          },
+          "releaseTag": "Public",
+          "overloadIndex": 1,
+          "parameters": [
+            {
+              "parameterName": "age1",
+              "parameterTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              },
+              "isOptional": false
+            }
+          ],
+          "name": "foo"
+        },
+        {
+          "kind": "TypeAlias",
+          "canonicalReference": "@czui/tool-ts!Person:type",
+          "docComment": "/**\n * type of person\n *\n * @public\n */\n",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "export declare type Person = "
+            },
+            {
+              "kind": "Content",
+              "text": "{\n    name: string;\n    age: number;\n}"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
+            }
+          ],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "Public",
+          "name": "Person",
+          "typeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        },
+        {
+          "kind": "Namespace",
+          "canonicalReference": "@czui/tool-ts!verify:namespace",
+          "docComment": "",
+          "excerptTokens": [],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "None",
+          "name": "verify",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isColor:var",
+              "docComment": "/**\n * @desc 判断是否为16进制颜色，rgb 或 rgba\n *\n * @param s -  @return {boolean}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isColor: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isColor",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isEmail:var",
+              "docComment": "/**\n * 验证邮箱\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isEmail: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isEmail",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isIdCard:var",
+              "docComment": "/**\n * @desc 判断是否为身份证号\n *\n * @param s -  @return\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isIdCard: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isIdCard",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isMobile:var",
+              "docComment": "/**\n * 验证手机号码\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isMobile: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isMobile",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isPhone:var",
+              "docComment": "/**\n * 电话号码\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isPhone: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isPhone",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isUrl:var",
+              "docComment": "/**\n * 是否url地址\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isUrl: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: string) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isUrl",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.random:var",
+              "docComment": "/**\n * 生成默认6位随即数\n *\n * @param s - \n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "random: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s?: number) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "random",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@czui/tool-ts!version:var",
+          "docComment": "",
+          "excerptTokens": [
+            {
+              "kind": "Content",
+              "text": "version: "
+            },
+            {
+              "kind": "Content",
+              "text": "string"
+            }
+          ],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "isReadonly": true,
+          "releaseTag": "Public",
+          "name": "version",
+          "variableTypeTokenRange": {
+            "startIndex": 1,
+            "endIndex": 2
+          }
+        }
+      ]
+    }
+  ]
+}
