@@ -1,8 +1,9 @@
 
 module.exports = {
     title: 'tool-ts',
+    base: '/tool-ts/',
     themeConfig: {
-        logo: '/logo.png',
+        logo: './logo.png',
         nav: [{
             text: '首页', link: '/'
         }, {
@@ -13,6 +14,5 @@ module.exports = {
         }],
         sidebar: 'auto',
         sidebarDepth: 2
-
     }
 }

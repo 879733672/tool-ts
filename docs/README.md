@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /avatar.png
+heroImage: ./avatar.png
 heroText: tool-ts
 tagline: 常用开发工具
 actionText: 快速上手 →
