@@ -68,15 +68,4 @@ tool-ts
 
 #### API 介绍
 
--   verify 校验模块
-
-| 名称     | 参数             | 备注                                |
-| -------- | ---------------- | ----------------------------------- |
-| isEmail  | string           | 是否邮箱                            |
-| isMobile | string or number | 是否验证手机号码                    |
-| isPhone  | string or number | 是否电话号码                        |
-| isUrl    | string           | 是否 url 地址                       |
-| isColor  | string           | 判断是否为 16 进制颜色，rgb 或 rgba |
-| isIdCard | string or number | 判断是否为身份证号                  |
-
-| random | number | string | 生成默认 6 位随即数|
+[文档地址](https://879733672.github.io/tool-ts/)
