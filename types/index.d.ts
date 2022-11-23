@@ -4,51 +4,51 @@ export declare type Cat = {
 
 /**
  *
- * @param age1
+ * @param age1 - person
  * @returns
  */
 export declare function foo(age1: Person): Person;
 
 /**
  *
- * @desc 判断是否为16进制颜色，rgb 或 rgba
- * @param s
+ * 判断是否为16进制颜色，rgb 或 rgba
+ * @param s - color
  * @return {boolean}
  */
 declare const isColor: (s: string) => boolean;
 
 /**
  * 验证邮箱
- * @param s
+ * @param s - email
  * @returns {boolean}
  */
 declare const isEmail: (s: string) => boolean;
 
 /**
  *
- * @desc  判断是否为身份证号
- * @param s
+ * 判断是否为身份证号
+ * @param s - card
  * @return
  */
 declare const isIdCard: (s: string) => boolean;
 
 /**
  * 验证手机号码
- * @param s
+ * @param s - moblie
  * @returns {boolean}
  */
 declare const isMobile: (s: string) => boolean;
 
 /**
  * 电话号码
- * @param s
+ * @param s - phone
  * @returns {boolean}
  */
 declare const isPhone: (s: string) => boolean;
 
 /**
  * 是否url地址
- * @param s
+ * @param s - url
  * @returns {boolean}
  */
 declare const isUrl: (s: string) => boolean;
@@ -64,7 +64,7 @@ export declare type Person = {
 
 /**
  * 生成默认6位随即数
- * @param s
+ * @param s - number
  * @returns
  */
 declare const random: (s?: number) => string;
