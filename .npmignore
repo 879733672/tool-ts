@@ -13,3 +13,6 @@ example/
 config.gypi
 CVS
 npm-debug.log
+/coverage
+/docs
+/temp

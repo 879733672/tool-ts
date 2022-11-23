@@ -5,3 +5,7 @@ package-lock.json
 /dist
 /es
 /lib
+/coverage
+/temp
+.temp
+.cache
