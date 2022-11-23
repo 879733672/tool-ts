@@ -15,7 +15,7 @@ module.exports = {
             value: ':recycle: refactor',
             name: '♻️  refactor: 重构',
         },
-        { value: ':rocket: chore', name: '🚀 chore: 修改配置文件' },
+        { value: ':rocket: rocket', name: '🚀 rocket: 部署功能 ' },
         { value: ':zap: perf', name: '⚡️ perf:  性能优化' },
         { value: ':white_check_mark: test', name: '✅ test:  增加测试' },
         {
