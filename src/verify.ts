@@ -1,6 +1,6 @@
 /**
  * 验证邮箱
- * @param s
+ * @param s - email
  * @returns {boolean}
  */
 const isEmail = (s: string) => {
@@ -11,7 +11,7 @@ const isEmail = (s: string) => {
 
 /**
  * 验证手机号码
- * @param s
+ * @param s - moblie
  * @returns {boolean}
  */
 const isMobile = (s: string) => {
@@ -20,7 +20,7 @@ const isMobile = (s: string) => {
 
 /**
  * 电话号码
- * @param s
+ * @param s - phone
  * @returns {boolean}
  */
 const isPhone = (s: string) => {
@@ -29,7 +29,7 @@ const isPhone = (s: string) => {
 
 /**
  * 是否url地址
- * @param s
+ * @param s - url
  * @returns {boolean}
  */
 const isUrl = (s: string) => {
@@ -38,7 +38,7 @@ const isUrl = (s: string) => {
 
 /**
  * 生成默认6位随即数
- * @param s
+ * @param s - number
  * @returns
  */
 const random = (s: number = 6) => {
@@ -47,8 +47,8 @@ const random = (s: number = 6) => {
 
 /**
  *
- * @desc 判断是否为16进制颜色，rgb 或 rgba
- * @param s
+ * 判断是否为16进制颜色，rgb 或 rgba
+ * @param s - color
  * @return {boolean}
  */
 const isColor = (s: string) => {
@@ -59,8 +59,8 @@ const isColor = (s: string) => {
 
 /**
  *
- * @desc  判断是否为身份证号
- * @param s
+ * 判断是否为身份证号
+ * @param s - card
  * @return
  */
 const isIdCard = (s: string) => {

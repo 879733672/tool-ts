@@ -201,7 +201,7 @@
         {
           "kind": "Function",
           "canonicalReference": "@czui/tool-ts!foo:function(1)",
-          "docComment": "/**\n * @param age1 - \n *\n * @returns \n */\n",
+          "docComment": "/**\n * @param age1 - person\n *\n * @returns \n */\n",
           "excerptTokens": [
             {
               "kind": "Content",
@@ -284,7 +284,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isColor:var",
-              "docComment": "/**\n * @desc 判断是否为16进制颜色，rgb 或 rgba\n *\n * @param s -  @return {boolean}\n */\n",
+              "docComment": "/**\n * 判断是否为16进制颜色，rgb 或 rgba\n *\n * @param s - color  @return {boolean}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -307,7 +307,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isEmail:var",
-              "docComment": "/**\n * 验证邮箱\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "docComment": "/**\n * 验证邮箱\n *\n * @param s - email\n *\n * @returns {boolean}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -330,7 +330,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isIdCard:var",
-              "docComment": "/**\n * @desc 判断是否为身份证号\n *\n * @param s -  @return\n */\n",
+              "docComment": "/**\n * 判断是否为身份证号\n *\n * @param s - card  @return\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -353,7 +353,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isMobile:var",
-              "docComment": "/**\n * 验证手机号码\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "docComment": "/**\n * 验证手机号码\n *\n * @param s - moblie\n *\n * @returns {boolean}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -376,7 +376,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isPhone:var",
-              "docComment": "/**\n * 电话号码\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "docComment": "/**\n * 电话号码\n *\n * @param s - phone\n *\n * @returns {boolean}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -399,7 +399,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isUrl:var",
-              "docComment": "/**\n * 是否url地址\n *\n * @param s - \n *\n * @returns {boolean}\n */\n",
+              "docComment": "/**\n * 是否url地址\n *\n * @param s - url\n *\n * @returns {boolean}\n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",
@@ -422,7 +422,7 @@
             {
               "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.random:var",
-              "docComment": "/**\n * 生成默认6位随即数\n *\n * @param s - \n *\n * @returns \n */\n",
+              "docComment": "/**\n * 生成默认6位随即数\n *\n * @param s - number\n *\n * @returns \n */\n",
               "excerptTokens": [
                 {
                   "kind": "Content",

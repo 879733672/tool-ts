@@ -18,7 +18,7 @@ export type Person = {
 
 /**
  *
- * @param age1
+ * @param age1 - person
  * @returns
  */
 export function foo(age1: Person) {

@@ -14,7 +14,7 @@
 -   打包常用命令
 
     ```
-    npm run start // 本地启动开发模式 isExternal 默认排除其它外部引用（如 jquery，lodash），需要自己 build 下修改配置 npm run build // 生产打包模式 打包生成 es、cjs、umd、umd（min）代码压缩文件
+    npm run start // 本地启动开发模式 isExternal 默认排除其它外部引用（如 jquery，lodash），需要自己 build 下修改配置 
 
     npm run lint // eslint 检查 npm run lint:fix // eslint 检查并自动修复 npm run format // 自动格式化代码
 
@@ -24,9 +24,12 @@
     npm run push:tag // 推送tag到git
 
     npm run daily // 日常提交代码
+    git push      // 推送代码
+
+    npm run build // 生产打包模式 打包生成 es、cjs、umd、umd（min）代码压缩文件
+    npm run build:types  // 打包类型文件
     npm run npublish  // 提交发布npm
 
-    npm run build:types  // 打包类型文件
     npm run doc  // 根据类型文件生成文档
 
     ```
