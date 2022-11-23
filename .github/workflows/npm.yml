@@ -3,7 +3,7 @@ name: npm 发布
 on:
   # 每当 push tag 时触发npm发布
   push:
-    tags: [*]
+    tags: [v*]
   # 手动触发部署
   workflow_dispatch:
 
