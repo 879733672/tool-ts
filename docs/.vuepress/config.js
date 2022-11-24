@@ -1,7 +1,7 @@
 
 module.exports = {
     title: 'tool-ts',
-    base: './',
+    base: '/tool-ts/',
     themeConfig: {
         logo: './logo.png',
         nav: [{
