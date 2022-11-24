@@ -40,6 +40,8 @@ specifiers:
   typedoc: ^0.23.21
   typescript: ^4.8.4
   vuepress: ^1.9.7
+  vuepress-plugin-copyright: ^1.0.2
+  vuepress-plugin-cursor-effects: ^1.1.6
 
 devDependencies:
   '@babel/core': 7.19.6
@@ -81,6 +83,8 @@ devDependencies:
   typedoc: 0.23.21_typescript@4.8.4
   typescript: 4.8.4
   vuepress: 1.9.7_lodash@4.17.21
+  vuepress-plugin-copyright: 1.0.2
+  vuepress-plugin-cursor-effects: 1.1.6
 
 packages:
 
@@ -1922,6 +1926,24 @@ packages:
     resolution: {integrity: sha512-9b8mPpKrfeGRuhFH5iO1iwCLeIIsV6+H1sRfxbkoGXIyQE2BTsPd9zqSqQJ+pv5sJ/hT5M1zvOFL02MnEezFug==}
     dev: true
 
+  /@moefy-canvas/core/0.5.2:
+    resolution: {integrity: sha512-XkaVE91Tiwb35zFmI1DbrJpMh0xe54QbzQrc7ATwMos4C08dxBnwExwXEVS7oEct7owVDY1UWxtRRVE7smtzHw==}
+    dev: true
+
+  /@moefy-canvas/theme-popper/0.5.2:
+    resolution: {integrity: sha512-s6Gy27DKTLm2un5Od3fsAonnd7lN4pgyLXJ/omXisAZpVLbPg/Q5/QKpJLZvQ/08qNrn6X/GZjnWwvsHbJTBNw==}
+    dependencies:
+      '@moefy-canvas/core': 0.5.2
+      '@moefy-canvas/utils': 0.5.2
+      ts-debounce: 4.0.0
+    dev: true
+
+  /@moefy-canvas/utils/0.5.2:
+    resolution: {integrity: sha512-DnI8I/cTBFfn3xoXwyyLEtye4pMI6zJFMxU1qps731xgYTWmzBqJPkZZd/2gfNnH5NnLUOGG7Ui3sMkmJ0vg0w==}
+    dependencies:
+      '@moefy-canvas/core': 0.5.2
+    dev: true
+
   /@mrmlnc/readdir-enhanced/2.2.1:
     resolution: {integrity: sha512-bPHp6Ji8b41szTOcaP63VlnbbO5Ny6dwAATtY6JTjh5N2OLrb5Qk/Th5cRkRQhkWCt+EJsYrNB0MiL+Gpn6e3g==}
     engines: {node: '>=4'}
@@ -2123,6 +2145,15 @@ packages:
       argparse: 1.0.10
       colors: 1.2.5
       string-argv: 0.3.1
+    dev: true
+
+  /@shigma/stringify-object/3.3.0:
+    resolution: {integrity: sha512-tO5pn6RJp8m1ldYtqY3GEQA6+Nqp1cIZVrVx7iFVPx0YfhMqfplwrvyrQPP1cCwuyRoAyDr/BxVZYt+USm8LXQ==}
+    engines: {node: '>=6'}
+    dependencies:
+      get-own-enumerable-property-symbols: 3.0.2
+      is-obj: 1.0.1
+      is-regexp: 2.1.0
     dev: true
 
   /@sinclair/typebox/0.24.51:
@@ -6943,6 +6974,10 @@ packages:
       has-symbols: 1.0.3
     dev: true
 
+  /get-own-enumerable-property-symbols/3.0.2:
+    resolution: {integrity: sha512-I0UBV/XOz1XkIJHEUDMZAbzCThU/H8DxmSfmdGcKPnVhu2VfFqr34jr9777IyaTYvxjedWhqVIilEDsCdP5G6g==}
+    dev: true
+
   /get-package-type/0.1.0:
     resolution: {integrity: sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==}
     engines: {node: '>=8.0.0'}
@@ -8040,6 +8075,11 @@ packages:
     engines: {node: '>=0.12.0'}
     dev: true
 
+  /is-obj/1.0.1:
+    resolution: {integrity: sha512-l4RyHgRqGN4Y3+9JHVrNqO+tN0rV5My76uW5/nuO4K1b6vw5G8d/cmFjP9tRfEsdhZNt0IFdZuK/c2Vr4Nb+Qg==}
+    engines: {node: '>=0.10.0'}
+    dev: true
+
   /is-obj/2.0.0:
     resolution: {integrity: sha512-drqDG3cbczxxEJRoOXcOjtdp1J/lyp1mNn0xaznRs8+muBhgQcrnbspox5X5fOw0HnMnbfDzvnEMEtqDEJEo8w==}
     engines: {node: '>=8'}
@@ -8098,6 +8138,11 @@ packages:
     dependencies:
       call-bind: 1.0.2
       has-tostringtag: 1.0.0
+    dev: true
+
+  /is-regexp/2.1.0:
+    resolution: {integrity: sha512-OZ4IlER3zmRIoB9AqNhEggVxqIH4ofDns5nRrPS6yQxXE1TPCUpFznBfRQmQa8uC+pXqjMnukiJBxCisIxiLGA==}
+    engines: {node: '>=6'}
     dev: true
 
   /is-resolvable/1.1.0:
@@ -12464,6 +12509,10 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /ts-debounce/4.0.0:
+    resolution: {integrity: sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8pMWbCbg==}
+    dev: true
+
   /ts-jest/29.0.3_fxe5mizohawh6cjruma5lyyrna:
     resolution: {integrity: sha512-Ibygvmuyq1qp/z3yTh9QTwVVAbFdDy/+4BtIQR2sp6baF2SJU/8CKK/hhnGIDY2L90Az2jIqTwZPnN2p+BweiQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
@@ -13109,6 +13158,18 @@ packages:
       markdown-it-container: 2.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /vuepress-plugin-copyright/1.0.2:
+    resolution: {integrity: sha512-SWiyqqU8StPGB6WxzVTbRMUyyE0g6lJoP9SDoOua5PHUeawd8XdDBAaCCGRrmd2JDMvCDZlNYHTHgsKJncuU2g==}
+    dependencies:
+      '@shigma/stringify-object': 3.3.0
+    dev: true
+
+  /vuepress-plugin-cursor-effects/1.1.6:
+    resolution: {integrity: sha512-4qXL2flMQcd6ecp+LhdChspobhdb9fkAfmRjRs2K3a/DiwtQtOE24jaVFCClwhfDpYuRe48a0KVeROYkdiWuXg==}
+    dependencies:
+      '@moefy-canvas/theme-popper': 0.5.2
     dev: true
 
   /vuepress-plugin-smooth-scroll/0.0.3:
