@@ -35,8 +35,13 @@ jobs:
       - name: Install Dependencies
         run: pnpm install
 
+      # 测试
+      - name: 测试
+        run: |
+            npm run test
+
       # 运行打包脚本
-      - name: Build VuePress site
+      - name: Build Npm
         run: | 
             npm run build
             build:types
