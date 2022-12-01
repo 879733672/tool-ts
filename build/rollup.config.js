@@ -110,7 +110,7 @@ const config = outputs.map((output, i) => {
         external: (id) => {
             return !isExternal
                 ? false
-                : /@babel\/runtime/.test(id) || /lodash/.test(id);
+                : /@babel\/runtime/.test(id);
         },
     };
 });

@@ -1,0 +1,11 @@
+/test
+/node_modules
+/public/
+build/docs/
+package-lock.json
+/dist
+/es
+/lib
+/coverage
+/temp
+/api

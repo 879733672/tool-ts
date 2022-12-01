@@ -173,103 +173,702 @@
       "preserveMemberOrder": false,
       "members": [
         {
-          "kind": "TypeAlias",
-          "canonicalReference": "@czui/tool-ts!Cat:type",
+          "kind": "Namespace",
+          "canonicalReference": "@czui/tool-ts!lodash:namespace",
+          "docComment": "",
+          "excerptTokens": [],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "None",
+          "name": "lodash",
+          "preserveMemberOrder": false,
+          "members": []
+        },
+        {
+          "kind": "Namespace",
+          "canonicalReference": "@czui/tool-ts!random:namespace",
+          "docComment": "",
+          "excerptTokens": [],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "None",
+          "name": "random",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!random.createMobile:var",
+              "docComment": "/**\n * 随即生成手机号码\n *\n * @param s - boolean\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "createMobile: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s?: boolean) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/random.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "createMobile",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!random.getTimeName:var",
+              "docComment": "/**\n * 根据时间生成唯一时间名称(YYYYMMDDhhmmss)\n *\n * @param str - string\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getTimeName: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(str?: string) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/random.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getTimeName",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!random.random:var",
+              "docComment": "/**\n * 生成默认6位随即数\n *\n * @param s - number\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "random: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s?: number) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/random.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "random",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!random.randomColor:var",
+              "docComment": "/**\n * 随机生成16进制颜色\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "randomColor: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s?: string) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/random.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "randomColor",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!random.randomNumber:var",
+              "docComment": "/**\n * 生成指定范围[min, max]的随机数\n *\n * @param min - number\n *\n * @param max - number\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "randomNumber: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(max: number, min?: number) => number"
+                }
+              ],
+              "fileUrlPath": "temp/src/random.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "randomNumber",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Namespace",
+          "canonicalReference": "@czui/tool-ts!store:namespace",
+          "docComment": "",
+          "excerptTokens": [],
+          "fileUrlPath": "temp/src/index.d.ts",
+          "releaseTag": "None",
+          "name": "store",
+          "preserveMemberOrder": false,
+          "members": [
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.clearItem:var",
+              "docComment": "/**\n * 清除所有localStorage中数据\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "clearItem: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "clearItem",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.clearSession:var",
+              "docComment": "/**\n * 清空session\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "clearSession: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "clearSession",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.getCookie:var",
+              "docComment": "/**\n * 根据name读取cookie\n *\n * @param name - 名称\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getCookie: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(name: string) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getCookie",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.getItem:var",
+              "docComment": "/**\n * 根据key获取localStorage中数据\n *\n * @param key - 名称\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getItem: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(key: string) => any"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getItem",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.getSession:var",
+              "docComment": "/**\n * 获取sessionStorage\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getSession: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(name: string) => unknown"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getSession",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.removeCookie:var",
+              "docComment": "/**\n * 删除cookie\n *\n * @param name - 名称\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "removeCookie: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(name: string) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "removeCookie",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.removeItem:var",
+              "docComment": "/**\n * 根据key删除localStorage中数据\n *\n * @param key - 名称\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "removeItem: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(key: string) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "removeItem",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.removeSession:var",
+              "docComment": "/**\n * 删除sessionStorage指定项\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "removeSession: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(name: string) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "removeSession",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.setCookie:var",
+              "docComment": "/**\n * 设置cookie\n *\n * @param name - 名称\n *\n * @param value - 值\n *\n * @param days - 时间\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setCookie: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(name: string, value: string, days?: (number | undefined)) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "setCookie",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.setItem:var",
+              "docComment": "/**\n * 根据key设置localStorage中数据\n *\n * @param key - 名称\n *\n * @param data - 值\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setItem: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(key: string, data: unknown) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "setItem",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!store.setSession:var",
+              "docComment": "/**\n * 存储sessionStorage\n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "setSession: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(key: string, content: string) => void"
+                }
+              ],
+              "fileUrlPath": "temp/src/store.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "setSession",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            }
+          ]
+        },
+        {
+          "kind": "Variable",
+          "canonicalReference": "@czui/tool-ts!Tool:var",
           "docComment": "",
           "excerptTokens": [
             {
               "kind": "Content",
-              "text": "export declare type Cat = "
+              "text": "Tool: "
             },
             {
               "kind": "Content",
-              "text": "{\n    name: string;\n}"
+              "text": "{\n    verify: typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "verify",
+              "canonicalReference": "@czui/tool-ts!verify"
             },
             {
               "kind": "Content",
-              "text": ";"
+              "text": ";\n    random: typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "random",
+              "canonicalReference": "@czui/tool-ts!random"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    util: typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "util",
+              "canonicalReference": "@czui/tool-ts!util"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    store: typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "store",
+              "canonicalReference": "@czui/tool-ts!store"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n    lodash: typeof "
+            },
+            {
+              "kind": "Reference",
+              "text": "lodash",
+              "canonicalReference": "@czui/tool-ts!lodash"
+            },
+            {
+              "kind": "Content",
+              "text": ";\n}"
             }
           ],
           "fileUrlPath": "temp/src/index.d.ts",
+          "isReadonly": true,
           "releaseTag": "Public",
-          "name": "Cat",
-          "typeTokenRange": {
+          "name": "Tool",
+          "variableTypeTokenRange": {
             "startIndex": 1,
-            "endIndex": 2
+            "endIndex": 12
           }
         },
         {
-          "kind": "Function",
-          "canonicalReference": "@czui/tool-ts!foo:function(1)",
-          "docComment": "/**\n * @param age1 - person\n *\n * @returns \n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export declare function foo(age1: "
-            },
-            {
-              "kind": "Reference",
-              "text": "Person",
-              "canonicalReference": "@czui/tool-ts!Person:type"
-            },
-            {
-              "kind": "Content",
-              "text": "): "
-            },
-            {
-              "kind": "Reference",
-              "text": "Person",
-              "canonicalReference": "@czui/tool-ts!Person:type"
-            },
-            {
-              "kind": "Content",
-              "text": ";"
-            }
-          ],
+          "kind": "Namespace",
+          "canonicalReference": "@czui/tool-ts!util:namespace",
+          "docComment": "",
+          "excerptTokens": [],
           "fileUrlPath": "temp/src/index.d.ts",
-          "returnTypeTokenRange": {
-            "startIndex": 3,
-            "endIndex": 4
-          },
-          "releaseTag": "Public",
-          "overloadIndex": 1,
-          "parameters": [
+          "releaseTag": "None",
+          "name": "util",
+          "preserveMemberOrder": false,
+          "members": [
             {
-              "parameterName": "age1",
-              "parameterTypeTokenRange": {
+              "kind": "TypeAlias",
+              "canonicalReference": "@czui/tool-ts!util.Debounce:type",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare type Debounce = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(fn: (...args: unknown[]) => void, wait: number, immediate?: boolean) => (...args: unknown[]) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "releaseTag": "Public",
+              "name": "Debounce",
+              "typeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
-              },
-              "isOptional": false
-            }
-          ],
-          "name": "foo"
-        },
-        {
-          "kind": "TypeAlias",
-          "canonicalReference": "@czui/tool-ts!Person:type",
-          "docComment": "/**\n * type of person\n *\n * @public\n */\n",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "export declare type Person = "
+              }
             },
             {
-              "kind": "Content",
-              "text": "{\n    name: string;\n    age: number;\n}"
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.debounce:var",
+              "docComment": "/**\n * 防抖函数\n *\n * @param fun - 传入回调函数\n *\n * @param wait - 延时时间戳\n *\n * @param immediate - true代表立即执行\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "debounce: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Debounce",
+                  "canonicalReference": "@czui/tool-ts!util.Debounce:type"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "debounce",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
             },
             {
-              "kind": "Content",
-              "text": ";"
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.formatMobile:var",
+              "docComment": "/**\n * 手机号格式隐藏脱敏\n *\n * @param mobile - 手机号码\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "formatMobile: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(mobile: string) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "formatMobile",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.getJson:var",
+              "docComment": "/**\n * json字符串转对象\n *\n * @param str - json\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getJson: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(str: string) => unknown"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getJson",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.getObjectType:var",
+              "docComment": "/**\n * 获取对象的类型\n *\n * @param obj - 对象\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getObjectType: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(obj: unknown) => string"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getObjectType",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.getOS:var",
+              "docComment": "/**\n * 获取操作系统类型\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getOS: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => \"ios\" | \"android\" | \"windowsPhone\" | \"MacOSX\" | \"windows\" | \"linux\" | undefined"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getOS",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.getScrollTop:var",
+              "docComment": "/**\n * 获取滚动条距顶部的距离\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "getScrollTop: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "() => number"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "getScrollTop",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "TypeAlias",
+              "canonicalReference": "@czui/tool-ts!util.Throttle:type",
+              "docComment": "",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "export declare type Throttle = "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(fun: (...args: unknown[]) => void, wait: number) => (...args: unknown[]) => void"
+                },
+                {
+                  "kind": "Content",
+                  "text": ";"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "releaseTag": "Public",
+              "name": "Throttle",
+              "typeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!util.throttle:var",
+              "docComment": "/**\n * 创建并返回一个像节流阀一样的函数，当重复调用函数的时候，最多每隔 wait毫秒调用一次该函数。\n *\n * @param fun - 传入回调函数\n *\n * @param wait - 延时时间戳\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "throttle: "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "Throttle",
+                  "canonicalReference": "@czui/tool-ts!util.Throttle:type"
+                }
+              ],
+              "fileUrlPath": "temp/src/util.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "throttle",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
             }
-          ],
-          "fileUrlPath": "temp/src/index.d.ts",
-          "releaseTag": "Public",
-          "name": "Person",
-          "typeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          }
+          ]
         },
         {
           "kind": "Namespace",
@@ -322,6 +921,29 @@
               "isReadonly": true,
               "releaseTag": "Public",
               "name": "isEmail",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 2
+              }
+            },
+            {
+              "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isEmptyObject:var",
+              "docComment": "/**\n * 判断对象是否为空\n *\n * @param obj - 对象\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isEmptyObject: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(obj: unknown) => boolean"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isEmptyObject",
               "variableTypeTokenRange": {
                 "startIndex": 1,
                 "endIndex": 2
@@ -398,6 +1020,38 @@
             },
             {
               "kind": "Variable",
+              "canonicalReference": "@czui/tool-ts!verify.isUndefind:var",
+              "docComment": "/**\n * 判断是否undefind\n *\n * @param s - 值\n *\n * @returns \n */\n",
+              "excerptTokens": [
+                {
+                  "kind": "Content",
+                  "text": "isUndefind: "
+                },
+                {
+                  "kind": "Content",
+                  "text": "(s: unknown) => "
+                },
+                {
+                  "kind": "Reference",
+                  "text": "s",
+                  "canonicalReference": "@czui/tool-ts!~s"
+                },
+                {
+                  "kind": "Content",
+                  "text": " is undefined"
+                }
+              ],
+              "fileUrlPath": "temp/src/verify.d.ts",
+              "isReadonly": true,
+              "releaseTag": "Public",
+              "name": "isUndefind",
+              "variableTypeTokenRange": {
+                "startIndex": 1,
+                "endIndex": 4
+              }
+            },
+            {
+              "kind": "Variable",
               "canonicalReference": "@czui/tool-ts!verify.isUrl:var",
               "docComment": "/**\n * 是否url地址\n *\n * @param s - url\n *\n * @returns {boolean}\n */\n",
               "excerptTokens": [
@@ -418,54 +1072,8 @@
                 "startIndex": 1,
                 "endIndex": 2
               }
-            },
-            {
-              "kind": "Variable",
-              "canonicalReference": "@czui/tool-ts!verify.random:var",
-              "docComment": "/**\n * 生成默认6位随即数\n *\n * @param s - number\n *\n * @returns \n */\n",
-              "excerptTokens": [
-                {
-                  "kind": "Content",
-                  "text": "random: "
-                },
-                {
-                  "kind": "Content",
-                  "text": "(s?: number) => string"
-                }
-              ],
-              "fileUrlPath": "temp/src/verify.d.ts",
-              "isReadonly": true,
-              "releaseTag": "Public",
-              "name": "random",
-              "variableTypeTokenRange": {
-                "startIndex": 1,
-                "endIndex": 2
-              }
             }
           ]
-        },
-        {
-          "kind": "Variable",
-          "canonicalReference": "@czui/tool-ts!version:var",
-          "docComment": "",
-          "excerptTokens": [
-            {
-              "kind": "Content",
-              "text": "version: "
-            },
-            {
-              "kind": "Content",
-              "text": "string"
-            }
-          ],
-          "fileUrlPath": "temp/src/index.d.ts",
-          "isReadonly": true,
-          "releaseTag": "Public",
-          "name": "version",
-          "variableTypeTokenRange": {
-            "startIndex": 1,
-            "endIndex": 2
-          }
         }
       ]
     }
