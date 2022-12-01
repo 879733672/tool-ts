@@ -9,5 +9,5 @@
 <b>Signature:</b>
 
 ```typescript
-setCookie: (name: string, value: string, days?: (number | undefined)) => void
+setCookie: (name: string, value: string, days?: number | undefined) => void
 ```

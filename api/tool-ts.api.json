@@ -515,7 +515,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "(name: string, value: string, days?: (number | undefined)) => void"
+                  "text": "(name: string, value: string, days?: number | undefined) => void"
                 }
               ],
               "fileUrlPath": "temp/src/store.d.ts",
