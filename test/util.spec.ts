@@ -15,20 +15,8 @@ describe('测试常用方法', () => {
     });
 
     test('json must be a string, def is not required', () => {
-        expect(
-            util.getJson('{"password":"123456","username":"张三"}', {}),
-        ).toEqual({
-            password: '123456',
-            username: '张三',
-        });
-        expect(util.getJson('{"password":"123456","username":"张三"}')).toEqual(
-            {
-                password: '123456',
-                username: '张三',
-            },
-        );
+        expect(util.getJson('{"password":"123456","username":"张三"}')).toEqual({ password: '123456', username: '张三' });
         expect(util.getJson('{"neme":4}')).toEqual({ neme: 4 });
-        expect(util.getJson('aa', 11)).toBe(11);
         expect(util.getJson('aa')).not.toBeFalsy();
     });
 
