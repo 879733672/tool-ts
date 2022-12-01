@@ -17,7 +17,6 @@ specifiers:
   '@rollup/plugin-terser': ^0.1.0
   '@rollup/plugin-typescript': ^9.0.2
   '@types/jest': ^29.2.0
-  '@types/lodash': ^4.14.191
   '@typescript-eslint/eslint-plugin': ^5.42.1
   '@typescript-eslint/parser': ^5.42.1
   commitizen: ^4.2.5
@@ -61,7 +60,6 @@ devDependencies:
   '@rollup/plugin-terser': 0.1.0_rollup@3.2.3
   '@rollup/plugin-typescript': 9.0.2_655ssj4e7sdqlljrreeiqtltve
   '@types/jest': 29.2.0
-  '@types/lodash': 4.14.191
   '@typescript-eslint/eslint-plugin': 5.42.1_2udltptbznfmezdozpdoa2aemq
   '@typescript-eslint/parser': 5.42.1_rmayb2veg2btbq6mbmnyivgasy
   commitizen: 4.2.5
@@ -2334,10 +2332,6 @@ packages:
 
   /@types/linkify-it/3.0.2:
     resolution: {integrity: sha512-HZQYqbiFVWufzCwexrvh694SOim8z2d+xJl5UNamcvQFejLY/2YUtzXHYi3cHdI7PMlS8ejH2slRAOJQ32aNbA==}
-    dev: true
-
-  /@types/lodash/4.14.191:
-    resolution: {integrity: sha512-BdZ5BCCvho3EIXw6wUCXHe7rS53AIDPLE+JzwgT+OsJk53oBfbSmZZ7CX4VaRoN78N+TJpFi9QPlfIVNmJYWxQ==}
     dev: true
 
   /@types/markdown-it/10.0.3:
