@@ -1,26 +1,16 @@
 import * as verify from './verify';
-export { verify };
+import * as random from './random';
+import * as util from './util';
+import * as store from './store';
+import * as lodash from './loadsh';
+export { verify, random, util, store, lodash };
 
-export const version: string = '1.0.1';
-
-export type Cat = {
-    name: string;
+const Tool = {
+    verify,
+    random,
+    util,
+    store,
+    lodash,
 };
 
-/**
- * type of person
- * @public
- */
-export type Person = {
-    name: string;
-    age: number;
-};
-
-/**
- *
- * @param age1 - person
- * @returns
- */
-export function foo(age1: Person) {
-    return age1;
-}
+export default Tool;

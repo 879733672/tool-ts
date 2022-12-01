@@ -4,28 +4,19 @@
 
 ## tool-ts package
 
-## Functions
-
-|  Function | Description |
-|  --- | --- |
-|  [foo(age1)](./tool-ts.foo.md) |  |
-
 ## Namespaces
 
 |  Namespace | Description |
 |  --- | --- |
+|  [lodash](./tool-ts.lodash.md) |  |
+|  [random](./tool-ts.random.md) |  |
+|  [store](./tool-ts.store.md) |  |
+|  [util](./tool-ts.util.md) |  |
 |  [verify](./tool-ts.verify.md) |  |
 
 ## Variables
 
 |  Variable | Description |
 |  --- | --- |
-|  [version](./tool-ts.version.md) |  |
-
-## Type Aliases
-
-|  Type Alias | Description |
-|  --- | --- |
-|  [Cat](./tool-ts.cat.md) |  |
-|  [Person](./tool-ts.person.md) | type of person |
+|  [Tool](./tool-ts.tool.md) |  |
 

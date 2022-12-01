@@ -10,9 +10,10 @@
 |  --- | --- |
 |  [isColor](./tool-ts.verify.iscolor.md) | 判断是否为16进制颜色，rgb 或 rgba |
 |  [isEmail](./tool-ts.verify.isemail.md) | 验证邮箱 |
+|  [isEmptyObject](./tool-ts.verify.isemptyobject.md) | 判断对象是否为空 |
 |  [isIdCard](./tool-ts.verify.isidcard.md) | 判断是否为身份证号 |
 |  [isMobile](./tool-ts.verify.ismobile.md) | 验证手机号码 |
 |  [isPhone](./tool-ts.verify.isphone.md) | 电话号码 |
+|  [isUndefind](./tool-ts.verify.isundefind.md) | 判断是否undefind |
 |  [isUrl](./tool-ts.verify.isurl.md) | 是否url地址 |
-|  [random](./tool-ts.verify.random.md) | 生成默认6位随即数 |
 

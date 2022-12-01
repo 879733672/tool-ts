@@ -1,6 +1,6 @@
 {
     "name": "@czui/tool-ts",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "前端常用工具库",
     "main": "lib/index.js",
     "module": "es/index.js",
@@ -51,8 +51,7 @@
     "lint-staged": {
         "*.{js,jsx,vue,ts,tsx}": [
             "prettier --cache --write ./src",
-            "eslint --ext .vue,.js,.jsx,.ts,.tsx --fix ./src",
-            "git add"
+            "eslint --ext .vue,.js,.jsx,.ts,.tsx --fix ./src"
         ]
     },
     "types": "./types/index.d.ts",
