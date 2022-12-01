@@ -1,13 +1,14 @@
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
-
 ## 1.0.1 (2022-12-01)
 
 
 ### ♻ Code Refactoring
 
 * 提交打包npm配置 ([af60ddd](https://github.com/879733672/tool-ts/commit/af60ddd))
+
+
+### ✨ Features
+
+* 新增常用功能 ([68c6f32](https://github.com/879733672/tool-ts/commit/68c6f32))
 
 
 ### 🐛 Bug Fixes
@@ -27,4 +28,3 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 
-## 1.0.1 (2022-11-18)
