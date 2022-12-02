@@ -45,7 +45,7 @@ jobs:
       - name: Build Npm
         run: | 
             npm run build
-            build:types
+            npm run build:types
 
       # 执行部署
       - name: 发布到 NPM
