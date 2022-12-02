@@ -22,7 +22,7 @@ const outputs = [
         file: 'lib/index.js',
         format: 'cjs',
         isExternal: true,
-        exports: 'auto',
+        exports: 'named',
     },
     {
         file: 'es/index.js',
@@ -33,10 +33,11 @@ const outputs = [
         file: 'dist/index.js',
         format: 'umd',
         name: 'tool',
+        isExternal: true,
+        exports: 'named',
         globals: {
             lodash: '_'
         },
-        isExternal: true,
     },
     {
         file: 'dist/index.min.js',
@@ -44,6 +45,7 @@ const outputs = [
         name: 'tool', // 当format为iife和umd时必须提供，将作为全局变量挂在window(浏览器环境)下：window.A=.
         isUglify: true,
         isExternal: true, // 外部是否打包进去，true不打包进去
+        exports: 'named',
         globals: {
             lodash: '_'
         },
