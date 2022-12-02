@@ -9,6 +9,7 @@ import babel from '@rollup/plugin-babel';
 import { join } from 'path';
 import omit from 'lodash/omit';
 import pkg from '../package.json';
+import process from 'node:process'; 
 const resolveFile = (filePath) => {
     return join(__dirname, '..', filePath);
 };
