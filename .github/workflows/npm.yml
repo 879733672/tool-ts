@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [15]
+        node-version: [16]
 
     steps:
       - uses: actions/checkout@v2
@@ -30,6 +30,7 @@ jobs:
           # 选择要使用的 node 版本
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
+          registry-url: https://registry.npmjs.org/  # 设置发包npm地址仓库
 
       # 安装依赖
       - name: Install Dependencies
@@ -44,15 +45,10 @@ jobs:
       - name: Build Npm
         run: | 
             npm run build
-            build:types
+            npm run build:types
 
       # 执行部署
       - name: 发布到 NPM
-        uses: actions/setup-node@v1
-        with:
-          node-version: 12
-          registry-url: https://registry.npmjs.org/  # 设置发包npm地址仓库
-
-      - run: npm run npublish # 执行发布
+        run: npm run npublish # 执行发布
         env:
             NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}} # 刚刚设置的 NPM_TOKEN
